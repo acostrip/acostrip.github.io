@@ -12,7 +12,7 @@ window.sr = ScrollReveal();
 
 
 sr.reveal('.nuestraBoda', {
-		duration: 2000, //tiempo
+		duration: 3000, //tiempo
 		delay:200,
 		scale: 0.10,
 		distance: '-0' //distancia
@@ -31,21 +31,21 @@ sr.reveal('.imagen3', {
 
 
 sr.reveal('.nombres1', {
-		duration: 2000, //tiempo
+		duration: 3000, //tiempo
 		delay: 1000,
 		origin: 'top', //origen
 		distance: '-100px', //distancia
 
 	});
 sr.reveal('.titulo', {
-		duration: 2000, //tiempo
+		duration: 2500, //tiempo
 		delay:300,
 		origin: 'right', //origen
 		distance: '-200px', //distancia
 
 	});
 sr.reveal('.titulo2', {
-		duration: 2000, //tiempo
+		duration: 2500, //tiempo
 		delay:900,
 		origin: 'right', //origen
 		distance: '-200px', //distancia
