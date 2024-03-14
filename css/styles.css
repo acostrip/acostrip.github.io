@@ -255,7 +255,35 @@ letter-spacing: 2px;
   font-family: 'Concert One', sans-serif;
 
 }
+.btnComoLlegar{
+  text-decoration: none;
+  color:#FFF;
+  background-color: #CC8B88; 
+  font-family: 'Cantata One', serif;
+  font-size: 11px;
+   height: 45px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 2px;
+border-radius: 50px;
+}
 
+.btnComoLlegar:hover{
+  text-decoration: none;
+  background-color: transparent; 
+  font-family: 'Cantata One', serif; 
+  font-size: 11px;
+  color:#CC8B88;
+  height: 45px;
+  letter-spacing: 2px;
+
+  border-top: 2px solid ;
+  border-bottom: 2px solid ;
+  border-right: 2px solid ;
+  border-left: 2px solid ;
+  border-color: #CC8B88;
+}
 
 .cuerpo{
 width: 100%;
