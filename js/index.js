@@ -11,78 +11,94 @@ window.sr = ScrollReveal();
 	}); 
 
 
-sr.reveal('.imagen2', {
+sr.reveal('.nuestraBoda', {
 		duration: 2000, //tiempo
 		delay:200,
-		origin: 'right', //origen
-		distance: '-100px', //distancia
+		scale: 0.10,
+		distance: '-0' //distancia
+		
 
 	});
 
 
 sr.reveal('.imagen3', {
 		duration: 2000, //tiempo
-		delay:200,
-		origin: 'top', //origen
+		delay:400,
+		origin: 'bottom', //origen
 		distance: '-200px', //distancia
 
 	});
 
 
-sr.reveal('.imagen4', {
+sr.reveal('.nombres1', {
 		duration: 2000, //tiempo
-		origin: 'right', //origen
+		delay: 1000,
+		origin: 'top', //origen
 		distance: '-100px', //distancia
 
 	});
-sr.reveal('.imagen5', {
+sr.reveal('.titulo', {
 		duration: 2000, //tiempo
-		delay:200,
-		origin: 'top', //origen
+		delay:300,
+		origin: 'right', //origen
 		distance: '-200px', //distancia
 
 	});
-sr.reveal('.imagen6', {
+sr.reveal('.titulo2', {
 		duration: 2000, //tiempo
-		delay:200,
-		origin: 'top', //origen
+		delay:900,
+		origin: 'right', //origen
 		distance: '-200px', //distancia
 
 	});
-sr.reveal('.imagen7', {
+sr.reveal('.subtitulo', {
 		duration: 2000, //tiempo
 		delay:300,
 		origin: 'top', //origen
-		scale: 0.10,
-		distance: '-0' //distancia
+		distance: '-50px' //distancia
 
 
 	}); 
 
-sr.reveal('.imagen8', {
+sr.reveal('.subtitulo2', {
 		duration: 2000, //tiempo
 		delay:300,
-		origin: 'top', //origen
-		scale: 0.10,
-		distance: '-0' //distancia
+		origin: 'bottom', //origen
+		distance: '-50px' //distancia
 
 
 	}); 
-sr.reveal('.imagen10', {
+sr.reveal('.texto', {
 		duration: 2000, //tiempo
-		origin: 'right', //origen
+		delay:900,
+		origin: 'top', //origen
 		distance: '-100px', //distancia
 
 	});
-sr.reveal('.imagen9', {
+sr.reveal('.subtitulo3', {
 		duration: 2000, //tiempo
 		delay:200,
 		origin: 'bottom', //origen
+		distance: '-100px', //distancia
+
+	});
+
+sr.reveal('.texto2', {
+		duration: 2000, //tiempo
+		delay:900,
+		origin: 'right', //origen
 		distance: '-200px', //distancia
 
 	});
 
-sr.reveal('.imagen11', {
+sr.reveal('.texto3', {
+		duration: 2000, //tiempo
+		delay:900,
+		origin: 'left', //origen
+		distance: '-50px', //distancia
+
+	});
+sr.reveal('.titulo3', {
 		duration: 2000, //tiempo
 		delay:200,
 		origin: 'top', //origen
@@ -90,36 +106,22 @@ sr.reveal('.imagen11', {
 
 	});
 
-sr.reveal('.imagen12', {
+
+	sr.reveal('.social', {
 		duration: 2000, //tiempo
 		delay:200,
 		origin: 'bottom', //origen
-		distance: '-200px', //distancia
+		distance: '-100px', //distancia
 
 	});
-sr.reveal('.imagen13', {
+
+
+
+	sr.reveal('.texto4', {
 		duration: 2000, //tiempo
-		delay:200,
-		origin: 'top', //origen
-		distance: '-200px', //distancia
-
-	});
-
-
-	sr.reveal('.imagen4', {
-		duration: 1500, //tiempo
+		delay:900,
 		origin: 'right', //origen
 		distance: '-100px', //distancia
-
-	});
-
-
-
-	sr.reveal('.piepagina', {
-		duration: 1500, //tiempo
-		origin: 'bottom', //origen
-		distance: '-100px', //distancia
-		reset:1000
 
 	}); 
 
